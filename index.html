@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Body Shop - 智能口红</title>
+
+    <!-- 这里是内联CSS -->
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 头部样式 */
+        header {
+            background-color: #006400;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* 主要内容区域 */
+        main {
+            padding: 20px;
+        }
+
+        /* 通用的内容区块 */
+        section {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 8px;
+            width: 80%;
+            max-width: 400px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 标题样式 */
+        h2 {
+            color: #006400;
+            font-size: 20px;
+        }
+
+        /* 输入框 */
+        input[type="text"] {
+            width: 80%;
+            padding: 8px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button, .btn {
+            display: inline-block;
+            background-color: #006400;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover, .btn:hover {
+            background-color: #004d00;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Body Shop 智能口红</h1>
+    </header>
+
+    <main>
+        <section class="verification">
+            <h2>🔍 防伪认证</h2>
+            <p>请输入口红编号进行真伪验证：</p>
+            <input type="text" placeholder="输入口红编号">
+            <button>验证</button>
+        </section>
+
+        <section class="official-link">
+            <h2>🌿 官方网站</h2>
+            <p>了解更多 The Body Shop 产品</p>
+            <a href="https://www.thebodyshop.com" target="_blank" class="btn">访问官网</a>
+        </section>
+
+        <section class="shade-recommend">
+            <h2>💄 色号 & 妆容推荐</h2>
+            <p>您的色号：<strong>玫瑰裸色（Rose Nude）</strong></p>
+            <img src="lipstick-shade.jpg" alt="口红色号" class="shade-img">
+            <p>推荐妆容：<strong>自然日常妆</strong></p>
+        </section>
+
+        <section class="expiry-check">
+            <h2>📅 生产日期 & 变质检测</h2>
+            <p><strong>生产日期：</strong> 2024年3月</p>
+            <p><strong>变质检测：</strong> ✅ 状态良好</p>
+            <p>（口红变质后，包装颜色将变为紫色提醒您更换！）</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>🌱 The Body Shop | 绿色环保 · 智能包装</p>
+    </footer>
+</body>
+</html>
